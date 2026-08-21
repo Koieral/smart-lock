@@ -1,0 +1,41 @@
+# ===== Keil MDK 构建产物 =====
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.axf
+*.lnp
+*.sct
+*.build_log.htm
+*.dep
+*.crf
+*.o
+*.d
+*.map
+*.lst
+JLinkLog.txt
+JLinkSettings.ini
+
+# ===== 每用户 Keil 配置（打开工程自动重建，不入库） =====
+*.uvguix.*
+*.uvoptx
+*.uvopt
+*.uvgui.*
+*.plg
+*.bak
+
+# ===== 历史遗留的标准外设库副本（已统一引用顶层 LIB\，磁盘保留） =====
+PROJECT/*/STM32F4xx_StdPeriph_Driver/
+
+# ===== 安装包与工具（留在原位，不进仓库） =====
+*.pack
+*.exe
+CP210x_Windows_Drivers/
+
+# ===== 大型资料（数据手册等，留在本地不进仓库） =====
+文档资料/
+1.环境搭建+新建工程-F411.docx
+
+# ===== 系统垃圾文件 =====
+Thumbs.db
+.DS_Store
