@@ -58,7 +58,7 @@ Smart lock
 └── 1.XYD_SmartLock_V2.pdf   # 开发板手册
 ```
 
-> 💡 各子工程内的 `Objects/`、`Listings/`、`*.uvoptx` 等构建产物不入库（见 [.gitignore](.gitignore)）；Keil 设备支持包（.pack）、数据手册等大文件保留在本地。
+>
 
 ## 🚀 快速开始
 
