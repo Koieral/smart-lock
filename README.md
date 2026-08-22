@@ -55,7 +55,7 @@ Smart lock
 │   ├── 09-mg200\           # 阶段9：MG200 指纹识别 —— ★ 最终整合版
 │   ├── README.md           # 工程说明
 │   └── 实习报告_智能门锁项目.md
-└── 1.环境搭建+新建工程-F411.docx / XYD_SmartLock_V2.pdf   # 环境搭建教程 / 开发板手册
+└── 1.XYD_SmartLock_V2.pdf   # 开发板手册
 ```
 
 > 💡 各子工程内的 `Objects/`、`Listings/`、`*.uvoptx` 等构建产物不入库（见 [.gitignore](.gitignore)）；Keil 设备支持包（.pack）、数据手册等大文件保留在本地。
@@ -64,14 +64,12 @@ Smart lock
 
 ### 环境要求
 
-- **Keil MDK-ARM v5**（需已安装 STM32F4xx 设备支持包 `Keil.STM32F4xx_DFP`，参考仓库内《1.环境搭建+新建工程-F411.docx》）
+- **Keil MDK-ARM v5**（需已安装 STM32F4xx 设备支持包 `Keil.STM32F4xx_DFP`）
 - **ST-Link** 调试器 + STM32F401RET6 开发板（推荐配套《XYD_SmartLock_V2.pdf》的 XY-D 智能门锁开发板）
 - 串口调试助手（XCOM 等，115200-8-N-1）
 
 ### 编译与烧录
 
-```bash
-git clone https://github.com/<your-name>/smart-lock.git
 ```
 
 1. 用 Keil 打开 `PROJECT\09-mg200\Smart_Lock.uvprojx`（最终完整版，包含全部功能）
